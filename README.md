@@ -5,12 +5,12 @@ This project aims to integrate a CI/CD pipeline into a full-stack web applicatio
 
 ---
 ## Table of Contents
-- [Description](#description)
-- [Walkthrough Video](#WalkthroughVideo)
+- [Description](#Description)
+- [Mock-up](#Mock-up)
 - [Features](#Features)
 - [Tech Stack](#TechStack)
 - [Installation](#installation)
-- [Questions](#questions)
+ 
 ---
 
 ## 🖥️ Mock-up
@@ -20,7 +20,7 @@ GitHub Actions for tests and deployments
 ---
 
 ## 🚀 Features
-	•	✅ Pull Request Workflow: Ensure clean code integration with a pull request to the develop branch, followed by Cypress component testing.
+	• ✅ Pull Request Workflow: Ensure clean code integration with a pull request to the develop branch, followed by Cypress component testing.
 	• ✅  Automated Testing: The GitHub Action runs Cypress component tests automatically on every pull request.
 	• ✅ Deployment to Render: Once the tests pass, and the code is merged into the main branch, a GitHub Action triggers an automatic deployment to Render.
 	• ✅ GitHub Action Integration: All actions are integrated using GitHub Actions, providing visibility into test results and the deployment pipeline.
@@ -42,8 +42,8 @@ GitHub Actions for tests and deployments
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/<your-username>/coding-quiz.git
-cd coding-quiz
+git clone [https://github.com/<your-username>/coding-quiz.git](https://github.com/gabipayan/CICD)
+cd CICD
 npm run install     # Installs client + server dependencies
 ```
 
