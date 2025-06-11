@@ -1,7 +1,7 @@
 # CICD
 
 ## Description
-This project aims to integrate a CI/CD pipeline into a full-stack web application, ensuring seamless continuous integration, continuous delivery, and automated deployment. It is designed for a software engineer looking to enhance the development workflow by automating testing, validation, and deployment processes.
+This [CICD](https://cicd-77mn.onrender.com) web app aims to integrate a CI/CD pipeline into a full-stack web application, ensuring seamless continuous integration, continuous delivery, and automated deployment. It is designed for a software engineer looking to enhance the development workflow by automating testing, validation, and deployment processes.
 
 ---
 ## Table of Contents
@@ -21,13 +21,12 @@ GitHub Actions for tests and deployments
 
 ## 🚀 Features
 	• ✅ Pull Request Workflow: Ensure clean code integration with a pull request to the develop branch, followed by Cypress component testing.
-	• ✅  Automated Testing: The GitHub Action runs Cypress component tests automatically on every pull request.
+	• ✅ Automated Testing: The GitHub Action runs Cypress component tests automatically on every pull request.
 	• ✅ Deployment to Render: Once the tests pass, and the code is merged into the main branch, a GitHub Action triggers an automatic deployment to Render.
 	• ✅ GitHub Action Integration: All actions are integrated using GitHub Actions, providing visibility into test results and the deployment pipeline.
 
 ---
 
----
 
 ## 📁 Tech Stack
 
@@ -42,7 +41,7 @@ GitHub Actions for tests and deployments
 ## ⚙️ Installation
 
 ```bash
-git clone [https://github.com/<your-username>/coding-quiz.git](https://github.com/gabipayan/CICD)
+git clone [CICD](https://github.com/gabipayan/CICD)
 cd CICD
 npm run install     # Installs client + server dependencies
 ```
