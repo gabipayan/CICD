@@ -14,7 +14,7 @@ const Quiz = () => {
       const questions = await getQuestions();
 
       if (!questions) {
-        throw new Error('Something went wrong!');
+        throw new Error('Something went wronG!');
       }
 
       setQuestions(questions);
